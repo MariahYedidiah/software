@@ -1,3 +1,19 @@
+//Name 9.c
+//Author Susmita Roy
+/*
+ 9. Write a program to print the following information about a given file.
+a. inode
+b. number of hard links
+c. uid
+d. gid
+e. size
+f. block size
+g. number of blocks
+h. time of last access
+i. time of last modification
+j. time of last change
+*/
+
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
@@ -21,3 +37,19 @@ int main(int argc,char *argv[])
 
 	return 0;
 }
+/*
+ output
+ ./a.out Jesus
+inode number= 6298084
+no. of hard links=2
+uid =1000
+ gid=1000
+size=91
+blocksize=4096
+#blocks=8
+last access time=Sat Aug 31 16:49:35 2024
+
+last modification time=Sat Aug 31 16:49:35 2024
+
+lastchange time=Sat Aug 31 16:49:35 2024
+*/
